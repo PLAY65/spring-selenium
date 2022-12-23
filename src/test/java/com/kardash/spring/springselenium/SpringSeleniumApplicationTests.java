@@ -19,9 +19,6 @@ class SpringSeleniumApplicationTests {
     @Autowired
     private FakerConfig fakerConfig;
 
-    @Autowired
-    private User user;
-
     @Value("${TEST_URL:Path}")
     private String path;
 
