@@ -1,6 +1,5 @@
 package com.kardash.spring.springselenium.util;
 
-import jakarta.annotation.PostConstruct;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,7 @@ public class ScreenShotUtil {
     @Autowired
     private TakesScreenshot driver;
 
-    @Value("${screenshot.path}")
+    @Value("${screenshot.path}\\img.png")
     private Path path;
 
 //    @PostConstruct
